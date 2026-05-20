@@ -1,0 +1,37 @@
+/* ========================================================= */
+/* Contributor: Radyat Daniel                                */
+/* Purpose: Demonstrate CSS contribution without effect       */
+/* ========================================================= */
+
+/* Example global styles (commented out) */
+/*
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #eef6f9;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #2c3e50;
+  text-align: center;
+}
+
+button {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #219150;
+}
+*/
+
+/* ========================================================= */
+/* These styles are commented out, so they do nothing.        */
+/* They exist only to show contribution in Git history.       */
+/* ========================================================= */
