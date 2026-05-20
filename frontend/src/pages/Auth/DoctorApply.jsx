@@ -81,7 +81,8 @@ export default function DoctorApply() {
 
     setLoading(true);
     try {
-      const res = await fetch("http://localhost:3001/api/auth/register/doctor", {
+      const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:3001";
+      const res = await fetch(`${API_BASE_URL}/api/auth/register/doctor`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
